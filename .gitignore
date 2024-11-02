@@ -1,0 +1,12 @@
+
+# Ignorar node_modules 
+node_modules/
+frontend/node_modules/
+api/node_modules/
+
+# Ignorar cachés
+.cache/
+.parcel-cache/
+.vite/
+.next/
+
