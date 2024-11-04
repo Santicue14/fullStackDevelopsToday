@@ -4,7 +4,9 @@
   "description": "- **Node.js**: JavaScript runtime for server-side development.\r - **Express**: Web framework for Node.js, used to set up the server and handle routes.\r - **Axios**: Promise-based HTTP client for making requests to the API.\r - **React.js**: JavaScript library for building user interfaces, particularly for single-page applications.\r - **Vite**: A fast build tool that provides a modern development environment.\r - **TailwindCSS**: Utility-first CSS framework for styling the application.\r - **MUI**: Material-UI for React, used for charts and UI components.\r ###  Api Routes",
   "main": "index.js",
   "scripts": {
-    "install": "npm install --prefix frontend && npm install --prefix api",
+    "install-frontend": "npm install --prefix frontend",
+    "install-api": "npm install --prefix api",
+    "install-all": "npm run install-frontend && npm run install-api",
     "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix api\"",
     "build": "npm run build --prefix frontend && npm run build --prefix api",
     "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix api\""
