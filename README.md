@@ -20,7 +20,7 @@ The application interacts with the following API endpoint:
 ## How to use
 
 The applications starts running in the terminal in root directory using
-    1. `npm install`
-    2. `npm run start`
+    1. `npm run install`
+    2. `npm run dev`
 
 #### This was developed by Santicue14. As a first technique task for **Develops Today**
